@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Churros Corner - Pure Veg</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff8f0;
+            color: #5a3e1b;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #d2691e;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .details, .menu, .combos, .location, .contact {
+            background-color: #f5efe6;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px 25px;
+            box-shadow: 1px 1px 8px #d4b887;
+        }
+        h2 {
+            color: #a0522d;
+            border-bottom: 2px solid #a0522d;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #d2b48c;
+            font-size: 1.1rem;
+        }
+        ul li:last-child {
+            border-bottom: none;
+        }
+        .combo-price {
+            color: #b22222;
+            font-weight: bold;
+        }
+        .offer-save {
+            font-style: italic;
+            font-size: 0.9rem;
+            color: #8b0000;
+        }
+        footer {
+            text-align: center;
+            background-color: #d2691e;
+            color: white;
+            padding: 15px 10px;
+            font-size: 1rem;
+        }
+        .live-churros {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: #a0522d;
+        }
+        .menu-image, .combo-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .menu, .combos, .details, .location, .contact {
+                padding: 15px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/nrVdHcCt/churros-corner.png" alt="Churros Corner Logo" />
+        <h1>Churros Corner - Pure Veg</h1>
+        <div class="tagline">Fresh, Homemade, and Delicious Churros Served Live!</div>
+    </header>
+
+    <section class="details">
+        <h2>About Our Churros</h2>
+        <p>Churros Corner offers authentic, crispy, and delicious churros made fresh and homemade every day. We serve live churros, prepared right in front of you to ensure maximum freshness and flavor. Our churros are purely vegetarian and crafted with love to give you a sweet delight anytime you crave.</p>
+    </section>
+
+    <section class="menu">
+        <h2>Menu</h2>
+        <img src="https://i.postimg.cc/FsJjwJXg/churros-menu.png" alt="Churros Menu" class="menu-image" />
+        <ul>
+            <li>Classic Churros - ₹49</li>
+            <li>Churros + 1 Dip - ₹79</li>
+            <li>Oreo Churros - ₹169</li>
+            <li>KitKat Churros - ₹169</li>
+            <li>Biscoff Churros - ₹169</li>
+        </ul>
+        <h3>Desserts</h3>
+        <ul>
+            <li>Triple Chocolate Brownie - ₹139</li>
+            <li>Strawberry Cup - ₹119</li>
+            <li>Brownie + Strawberry - ₹179</li>
+            <li>Chocolate Mousse - ₹99</li>
+            <li>Biscoff Mousse - ₹119</li>
+        </ul>
+        <h3>Extra Dip - ₹20</h3>
+        <p>White | Milk | Dark</p>
+        <h3>Best Sellers</h3>
+        <ul>
+            <li>Churros + 1 Dip</li>
+            <li>Oreo / KitKat Churros</li>
+            <li>Strawberry Churros</li>
+        </ul>
+    </section>
+
+    <section class="combos">
+        <h2>Combo Offers</h2>
+        <img src="https://i.postimg.cc/J0Bwf47k/churros-combos.png" alt="Churros Combo Offers" class="combo-image" />
+        <ul>
+            <li>
+                <strong>Combo 1 - Saver Combo</strong><br />
+                Classic Churros + 1 Dip &nbsp; <span class="combo-price">₹79</span> 
+                <span class="offer-save">(Save ₹10)</span>
+            </li>
+            <li>
+                <strong>Combo 2 - Choco Lover</strong><br />
+                Classic Churros + Triple Chocolate Brownie + 1 Dip &nbsp; <span class="combo-price">₹169</span> 
+                <span class="offer-save">(Save ₹19)</span>
+            </li>
+            <li>
+                <strong>Combo 3 - Oreo Blast</strong><br />
+                Oreo Churros + Chocolate Mousse &nbsp; <span class="combo-price">₹239</span> 
+                <span class="offer-save">(Save ₹29)</span>
+            </li>
+            <li>
+                <strong>Combo 4 - Strawberry Delight</strong><br />
+                Strawberry Churros + Strawberry Cup &nbsp; <span class="combo-price">₹279</span> 
+                <span class="offer-save">(Save ₹29)</span>
+            </li>
+            <li>
+                <strong>Combo 5 - Premium Biscoff</strong><br />
+                Biscoff Churros + Biscoff Mousse &nbsp; <span class="combo-price">₹269</span> 
+                <span class="offer-save">(Save ₹19)</span>
+            </li>
+        </ul>
+        <p><strong>Dip Upgrade / Extra Dip: +₹15</strong><br/>Add another dip for any combo! Choose from White, Milk, or Dark chocolate.</p>
+    </section>
+
+    <section class="location">
+        <h2>Location</h2>
+        <p>Churros Corner<br />
+            Opposite Zinzuvadia Jewellers,<br />
+            Near BRTS Bus Stand,<br />
+            Rambag, Charmaninagar.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +91 7016460405</p>
+        <p><strong>Opening Hours:</strong> 9:00 PM to 12:00 Midnight (Open all days)</p>
+        <p class="live-churros">Come taste our live, fresh churros made just for you!</p>
+    </section>
+
+    <footer>
+        &copy; 2024 Churros Corner. All rights reserved. Pure Vegetarian Delight.
+    </footer>
+</body>
+</html>
